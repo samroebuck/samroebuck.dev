@@ -1,22 +1,16 @@
-module.exports = ({
-  basePath = "/",
-  contentPath = "content/",
-  showThemeLogo = true,
-  theme = "classic",
-}) => {
-  return {
+module.exports = {
     siteMetadata: {
       description: "Personal page of John Doe",
       locale: "en",
-      showThemeLogo,
-      title: "John Doe",
+      showThemeLogo: true,
+      title: "John Doe"
     },
     plugins: [
       {
         resolve: `gatsby-plugin-postcss`,
         options: {
           postCssPlugins: [
-            require("tailwindcss")(require("./tailwind.config")(theme)),
+            require("tailwindcss")(require("./tailwind.config")("classic")),
             require("postcss-input-range"),
             require("autoprefixer"),
           ],
@@ -27,7 +21,7 @@ module.exports = ({
       {
         resolve: `gatsby-source-filesystem`,
         options: {
-          path: contentPath,
+          path: 'content/',
         },
       },
       {
@@ -37,4 +31,3 @@ module.exports = ({
       `gatsby-plugin-sharp`,
     ],
   }
-}
