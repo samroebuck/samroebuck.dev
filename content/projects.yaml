@@ -1,18 +1,55 @@
-- name: Example 1
-  url: https://github.com
-  description: Override the digital divide with additional clickthroughs from DevOps. User generated content in real-time will have multiple touchpoints for offshoring.
-  status: in progress
+- name: Kerbit - University Final Project
+  url: https://github.com/SamiiRoebuck/kerbit
+  description: Kerbit is a recycling app created for the residents of Leeds to help users recycle better. It utilises a custom trained machine learning model that recognises recycable materials and lets users know if, and where, they can be recycled. This project was chosen out of thousands to be highlighted on the Github Remote Graduation live stream.
+  status: live
   tags:
-    - JavaScript
-    - Gatsby
+    - React
+    - SCSS
+    - Google AutoML
+    - Tensorflow
+    - PWA
+    - Machine Learning
   icon: github
 
-- name: Example 2
-  url: https://github.com
-  description: Leverage agile frameworks to provide a robust synopsis for high level overviews.
+- name: Histore
+  url: https://github.com/SamiiRoebuck/histore
+  description: This project is a proof of concept piece of based around the idea of using technology to bring people information on the culture and history around them. In a Pokemon GO style app, it utilises the Google Maps and Wikipedia API's to alert users when they are near places of historical/cultural significance and shows the more information about it.
+  status: Proof of Concept
+  tags:
+    - JavaScript
+    - HTML/CSS
+    - Google Maps API
+    - Wikipedia API
+  icon: github
+
+- name: How does an ecosystem collapse?
+  url: https://onlinecourses.leeds.ac.uk/futurelearn/ecology_and_wildlife_conservation/marine_ecosystem/
+  description: Created as part of an online course for the University of Leeds, this site allows learners to interact and see the changes the happen in a food chain when different food sources are removed and was created using real data provided by researchers.
+  status: live
+  tags:
+    - JavaScript
+    - D3
+    - SCSS
+  icon: website
+
+- name: Client Portfolio
+  url: https://harryyorkdesign.com/
+  description: This portfolio was create for a client to display their work within the Design Engineering industry and be a one stop place for potential employers to view a condenced version of their work on the web as well as be able to download their full print portfolio.
+  status: live
+  tags:
+    - React
+    - Gatsby
+    - Netlify
+    - CSS Grid
+  icon: website
+
+- name: The Criminal Justice Process in England and Wales
+  url: https://onlinecourses.leeds.ac.uk/futurelearn/critical_thinking_in_ethics/criminal_justice_process/
+  description: Created as part of an online course for the University of Leeds, this site allows shows learners the process of moving through the criminal justice system and how people leave the system at different points.
   status: live
   tags:
     - JavaScript
     - HTML
+    - CSS/SCSS
+    - CSS Animations
   icon: website
-  image: images/project.jpg

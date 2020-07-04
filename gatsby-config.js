@@ -1,16 +1,16 @@
 module.exports = {
     siteMetadata: {
-      description: "Personal page of John Doe",
+      description: "Personal page of Sam Roebuck",
       locale: "en",
       showThemeLogo: true,
-      title: "John Doe"
+      title: "Sam Roebuck"
     },
     plugins: [
       {
         resolve: `gatsby-plugin-postcss`,
         options: {
           postCssPlugins: [
-            require("tailwindcss")(require("./tailwind.config")("classic")),
+            require("tailwindcss")(require("./tailwind.config")("sam")),
             require("postcss-input-range"),
             require("autoprefixer"),
           ],
