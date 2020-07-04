@@ -4,12 +4,13 @@ import { ProfileType } from "../../types"
 
 const ProfileImage = ({ image, name }) => (
   <div className="relative inline-block leading-none">
+  <div className="relative z-10 diamond">
     <Img
       fixed={image.childImageSharp.fixed}
       alt={name}
-      className="rounded-full relative z-10"
-    />
-    <div className="absolute inset-0 rounded-full bg-lead z-0 transform translate-x-12"></div>
+      className="relative z-10 diamond-img"></Img>
+    </div>
+    <div className="absolute inset-0 diamond diamond-off bg-pink z-0 transform translate-x-12"></div>
   </div>
 )
 
