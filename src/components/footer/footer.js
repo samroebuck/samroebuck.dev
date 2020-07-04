@@ -9,7 +9,6 @@ const Footer = ({ name, showThemeLogo = true }) => (
         <b>
           &copy; {new Date().getFullYear()} {name}.
         </b>{" "}
-        All rights reserved.
       </div>
       <div className="w-1/3 text-right text-xs text-back-light">
       <p>
