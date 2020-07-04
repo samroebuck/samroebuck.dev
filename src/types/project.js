@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import { arrayOf, shape, string, object, oneOf } from "prop-types"
+import { arrayOf, string, oneOf } from "prop-types"
 
 export const ProjectType = {
   description: string,

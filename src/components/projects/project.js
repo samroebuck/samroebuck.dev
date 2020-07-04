@@ -1,4 +1,3 @@
-import Img from "gatsby-image"
 import React from "react"
 import { ProjectType } from "../../types"
 import ProjectIcon from "./project-icon"
