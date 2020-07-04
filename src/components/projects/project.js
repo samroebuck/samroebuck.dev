@@ -7,7 +7,7 @@ import ProjectTags from "./project-tags"
 const Project = props => {
   const { name, url, description, status, tags, icon } = props
   return (
-    <div className="border-t-4 border-pink relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-md mb-6">
+    <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-md mb-6">
       <div className="lg:flex-1">
         <h4 className="font-bold">{name}</h4>
         {url && (
