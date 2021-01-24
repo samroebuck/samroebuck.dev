@@ -4,6 +4,7 @@
   profession: Developer
   image: images/profileimg.JPG
   location: Leeds, UK
+  relocation: false
   company: Mixd
   about: |
     Hey there! I'm Sam, I have recently finished my studies at the University of Leeds and have graduated with a First class degree in Digital Media BA.
