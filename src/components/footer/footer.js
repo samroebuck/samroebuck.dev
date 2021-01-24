@@ -15,7 +15,7 @@ const Footer = ({ name, showThemeLogo = true }) => (
           Built with&nbsp;
           <a
             aria-label="Intro theme"
-            className="text-pink"
+            className="underline"
             href="https://weeby.studio/intro"
             rel="noopener noreferrer"
             target="_blank"

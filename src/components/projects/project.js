@@ -7,9 +7,9 @@ import ProjectTags from "./project-tags"
 const Project = props => {
   const { name, url, description, status, tags, icon } = props
   return (
-    <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-md mb-6">
+    <article className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-md mb-6">
       <div className="lg:flex-1">
-        <h4 className="font-bold">{name}</h4>
+        <h3 className="font-bold">{name}</h3>
         {url && (
           <a
             className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
@@ -28,7 +28,7 @@ const Project = props => {
 
         {icon && <ProjectIcon icon={icon} />}
       </div>
-    </div>
+    </article>
   )
 }
 

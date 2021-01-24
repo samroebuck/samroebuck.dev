@@ -5,9 +5,9 @@ import "./work-history.css"
 const WorkHistory = ({ history }) => {
   return (
     <>
-      <h5 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center">
+      <h2 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center">
         Work history
-      </h5>
+      </h2>
       <div className="history flex flex-col relative pt-6 pb-6">
         {history.map(({ company, period, position, url }, i) => (
           <div
@@ -18,7 +18,7 @@ const WorkHistory = ({ history }) => {
               <span className="dot w-5 h-5 bg-back-light rounded-full" />
             </span>
             {url ? (
-              <h4 className="subpixel-antialiased">
+              <h3 className="subpixel-antialiased">
                 <a
                   href={url}
                   target="_blank"
@@ -27,16 +27,16 @@ const WorkHistory = ({ history }) => {
                 >
                   {company}
                 </a>
-              </h4>
+              </h3>
             ) : (
-              <h4 className="subpixel-antialiased">{company}</h4>
+              <h3 className="subpixel-antialiased">{company}</h3>
             )}
 
             {position && (
-              <h5 className="text-sm font-normal mb-1">{position}</h5>
+              <p className="text-sm font-normal mb-1">{position}</p>
             )}
             {period && (
-              <span className="text-sm font-medium opacity-50">{period}</span>
+              <p className="text-sm font-medium opacity-75">{period}</p>
             )}
           </div>
         ))}
