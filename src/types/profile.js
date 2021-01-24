@@ -8,7 +8,8 @@ export const ProfileType = {
     childImageSharp: object.isRequired,
     publicURL: string.isRequired,
   }),
-  location: string.isRequired,
+  location: string,
+  relocation: string,
   name: string.isRequired,
   profession: string.isRequired,
 }
