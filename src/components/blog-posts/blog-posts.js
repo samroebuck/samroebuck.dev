@@ -16,7 +16,6 @@ const BlogPosts = () => {
         await axios.get(apiUrl).then((post) => {
           const allPosts = post.data.slice(0, 4);
           setPosts({ loading: false, articles: allPosts });
-          console.log(allPosts);
         });
       };
 
