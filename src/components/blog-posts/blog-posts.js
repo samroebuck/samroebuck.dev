@@ -14,20 +14,32 @@ const BlogPosts = () => {
 
       const fetchPosts = async () => {
         await axios.get(apiUrl).then((post) => {
-          const allPosts = post.data;
+          const allPosts = post.data.slice(0, 4);
           setPosts({ loading: false, articles: allPosts });
+          console.log(allPosts);
         });
       };
+
       fetchPosts();
 
       }, [setPosts]);
     
 
     return (
-        <>
-            <h2 className="font-header font-semibold text-front text-lg uppercase mb-3">
-                Blog posts
-            </h2>
+        <>  
+          <div className='flex justify-between mt-12 items-baseline'>
+              <h2 className="font-header font-semibold text-front text-2xl uppercase mb-3">
+                Recent blog posts
+              </h2>
+              <a
+              className="text-front underline break-all hover:opacity-75 transition-opacity duration-150"
+              href="https://dev.to/samroebuck_"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Check out all my posts on dev.to
+            </a>
+          </div>
             {posts.articles.map((article, i) => (
               <BlogPost key={`${i}`} {...article} />
             ))}

@@ -8,7 +8,7 @@ const WorkHistory = ({ history }) => {
       <h2 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center">
         Work history
       </h2>
-      <div className="history flex flex-col relative pt-6 pb-6">
+      <div className="history flex flex-col relative pt-6 pb-6 mb-16">
         {history.map(({ company, period, position, url }, i) => (
           <div
             className="history-entry relative w-1/2 py-4"
