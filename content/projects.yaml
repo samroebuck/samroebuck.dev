@@ -1,5 +1,5 @@
 - name: Kerbit - University Final Project
-  url: https://github.com/SamiiRoebuck/kerbit
+  url: https://github.com/samroebuck/kerbit
   description: Kerbit is a recycling app created for the residents of Leeds to help users recycle better. It utilises a custom trained machine learning model that recognises recycable materials and lets users know if, and where, they can be recycled. This project was chosen out of thousands to be highlighted on the Github Remote Graduation live stream.
   status: live
   tags:
@@ -12,7 +12,7 @@
   icon: github
 
 - name: Histore
-  url: https://github.com/SamiiRoebuck/histore
+  url: https://github.com/samroebuck/histore
   description: This project is a proof of concept piece of based around the idea of using technology to bring people information on the culture and history around them. In a Pokemon GO style app, it utilises the Google Maps and Wikipedia API's to alert users when they are near places of historical/cultural significance and shows the more information about it.
   status: Proof of Concept
   tags:
