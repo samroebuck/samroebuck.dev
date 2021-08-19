@@ -32,17 +32,6 @@
     - SCSS
   icon: website
 
-- name: Client Portfolio
-  url: https://harryyorkdesign.com/
-  description: This portfolio was create for a client to display their work within the Design Engineering industry and be a one stop place for potential employers to view a condenced version of their work on the web as well as be able to download their full print portfolio.
-  status: live
-  tags:
-    - React
-    - Gatsby
-    - Netlify
-    - CSS Grid
-  icon: website
-
 - name: The Criminal Justice Process in England and Wales
   url: https://onlinecourses.leeds.ac.uk/futurelearn/critical_thinking_in_ethics/criminal_justice_process/
   description: Created as part of an online course for the University of Leeds, this site allows shows learners the process of moving through the criminal justice system and how people leave the system at different points.
