@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import profilePic from '/public/profile.JPG'
 
 const ProfileImage = () => (
   <div className="relative inline-block leading-none">
   <div className="relative z-10 diamond">
     <Image
-      src={profilePic}
+      src="profile.JPG"
       alt='Sam Roebuck'
       className="relative z-10 diamond-img"></Image>
     </div>
