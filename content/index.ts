@@ -1,0 +1,54 @@
+export const workHistory = [
+    {
+        company: 'cinch',
+        position: 'Software Engineer II',
+        period: 'January 2023 - present'
+    },
+    {
+        company: 'cinch',
+        position: 'Software Engineer',
+        period: 'January 2022 - January 2023'
+    },
+    {
+        company: 'IBM',
+        position: 'Associate Application Devloper',
+        period: 'February 2021 - December 2021'
+    },
+    {
+        company: 'Mixd',
+        position: 'Graduate Developer',
+        period: 'June 2020 - February 2021'
+    },
+    {
+        company: 'University of Leeds',
+        position: 'Interface Design Teaching Assistant',
+        period: 'January 2020 - April 2020'
+    },
+    {
+        company: 'Sky',
+        position: 'Software Engineering Academy Summer Intern',
+        period: 'August 2019 - September 2019'
+    },
+    {
+        company: 'Digital Education Service',
+        position: 'Digital Learning Intern',
+        period: 'August 2018 - July 2019'
+    }]
+
+export const profile = {
+    about: `Hey there! I'm Sam, I'm currently a Software Engineer at cinch
+
+    I have a huge passion for technology and development, and love learning about all things code! I also enjoy teaching others about development and have previously been an instuctor for Code First: Girls in where I taught Python to a class of over 30 people, as well as being a mentor for graduate engineers in my current role.
+    
+    Enjoy learing about and using TypeScript, Serverless, AWS and in general making cool things on the web, as well as a love of Python and an interest in DevOps.`,
+    town: 'Leeds, UK',
+    company: 'cinch'
+}
+
+export const social = [{
+    url: 'https://www.linkedin.com/in/samantha-roebuck/',
+    name: 'linkedin'
+}, {
+    url: 'https://github.com/samroebuck',
+    name: 'github'
+}]
