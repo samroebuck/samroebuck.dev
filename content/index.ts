@@ -38,9 +38,9 @@ export const workHistory = [
 export const profile = {
     about: `Hey there! I'm Sam, I'm currently a Software Engineer at cinch
 
-    I have a huge passion for technology and development, and love learning about all things code! I also enjoy teaching others about development and have previously been an instuctor for Code First: Girls in where I taught Python to a class of over 30 people, as well as being a mentor for graduate engineers in my current role.
+    I’m a passionate software engineer with professional experience in fullstack development and enjoy working across frontend, backend and infrastructure. I also enjoy teaching others about development and have previously been an instuctor for Code First: Girls in where I taught Python to a class of over 30 people, as well as being a mentor for graduate engineers in my current role.
     
-    Enjoy learing about and using TypeScript, Serverless, AWS and in general making cool things on the web, as well as a love of Python and an interest in DevOps.`,
+    Enjoy learing about and using TypeScript, Serverless, AWS and in general making cool things on the web, as well as having a passion for accessibility.`,
     town: 'Leeds, UK',
     company: 'cinch'
 }
