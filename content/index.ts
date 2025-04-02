@@ -1,8 +1,13 @@
 export const workHistory = [
     {
+        company: 'Prolific',
+        position: 'Senior Software Engineer',
+        period: 'August 2023 - present'
+    },
+    {
         company: 'cinch',
         position: 'Software Engineer II',
-        period: 'January 2023 - present'
+        period: 'January 2023 - August 2023'
     },
     {
         company: 'cinch',
@@ -36,13 +41,13 @@ export const workHistory = [
     }]
 
 export const profile = {
-    about: `Hey there! I'm Sam, I'm currently a Software Engineer at cinch
+    about: `Hey there! I'm Sam, I'm currently a Senior Software Engineer at Prolific.
 
-    I’m a passionate software engineer with professional experience in fullstack development and enjoy working across frontend, backend and infrastructure. I also enjoy teaching others about development and have previously been an instuctor for Code First: Girls in where I taught Python to a class of over 30 people, as well as being a mentor for graduate engineers in my current role.
+    I’m a passionate software engineer with professional experience in fullstack development and enjoy working across frontend, backend and infrastructure. I also enjoy teaching others about development and have previously been an instuctor for Code First: Girls in where I taught a class of over 30 people, as well as being a mentor for early career engineers in previous roles.
     
     Enjoy learing about and using TypeScript, Serverless, AWS and in general making cool things on the web, as well as having a passion for accessibility.`,
     town: 'Leeds, UK',
-    company: 'cinch'
+    company: 'Prolific'
 }
 
 export const social = [{
